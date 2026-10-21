@@ -44,70 +44,52 @@ cv:
         #highlights:
         #  - "İnsan iskeletlerinde mitokondriyal genom analizi ve haplo-grup tayini"
 
+      - institution: Istanbul University
+        location: Istanbul, Türkiye
+        area: Molecular Biology and Genetics
+        studyType: BSc
+        start_date: 207
+        end_date: 2012
+
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
-        highlights:
-          - Relativity
-          - Description 2.
+      - company: Hacettepe University
+        position: Assistant Professor at Department of Anthropology
+        location: Ankara, Türkiye
+        start_date: 2024
+        end_date: present
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
-        highlights:
-          - Description 1.
-          - Description 2.
+      - company: Hacettepe University
+        position: Instructor at Department of Anthropology
+        location: Ankara, Türkiye
+        start_date: 2019
+        end_date: 2024
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
+      - company: Max Planck Institute for Science of Human History
+        position: Visiting Researcher at Department of Archaeogenetics
+        location: Jena, Germany
+        start_date: 2018
+        end_date: 2019
 
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
+      - company: University of Ostrava
+        position: Researcher at Life Science Research Center
+        location: Ostrava, Czechia
+        start_date: 2015
+        end_date: 2019
 
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+      - company: Mustafa Kemal University
+        position: Research Assistant at Department of Anthropology
+        location: Hatay, Türkiye
+        start_date: 2014
+        end_date: 2015
 
     Awards:
-      - title: Nobel Prize in Physics
+      - title: BAGEP 2025
         authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+          - "Bilim Akademisi"
+        date: 2025-04-01
+        awarder: Bilim Akademisi
+        url: https://bilimakademisi.org/bagep-2025-sonuclari-aciklandi/
+        summary: The Science Academy’s Young Scientist Award (BAGEP) is a highly prestigious, non-governmental recognition that supports early-career researchers across disciplines. Awarded through a rigorous, merit-based process, it provides recipients with independent funding and intellectual freedom to pursue original and high-risk, high-gain research. This trust-based model makes BAGEP a cornerstone of Turkey’s scientific ecosystem.
 
     Publications:
       - title: Zur Elektrodynamik bewegter Körper
