@@ -12,7 +12,7 @@ cv:
     - network: GitHub
       username: altinisik
     - network: Bluesky
-      username: @ezgimou.bsky.social
+      username: ezgimou.bsky.social
 
   address:
     street: Beytepe
@@ -81,8 +81,6 @@ cv:
         location: Hatay, Türkiye
         start_date: 2014
         end_date: 2015
-
-    Volunteer: 
 
     Awards:
       - title: BAGEP 2025
