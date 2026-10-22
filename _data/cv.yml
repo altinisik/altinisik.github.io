@@ -82,6 +82,8 @@ cv:
         start_date: 2014
         end_date: 2015
 
+    Volunteer: 
+
     Awards:
       - title: BAGEP 2025
         authors:
@@ -123,7 +125,7 @@ cv:
         keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
 
     Languages:
-      - name: German
+      - name: Turkish
         summary: "Native speaker"
 
       - name: English
