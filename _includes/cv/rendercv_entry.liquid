@@ -1,0 +1,83 @@
+{% comment %}
+  Renders one RenderCV entry of any type, choosing the layout from the entry's fields
+  (as RenderCV itself does), so custom section titles work.
+  Local override for ezgilab.com; see _includes/cv/render.liquid.
+{% endcomment %}
+{% assign entry_json = entry | jsonify %}
+{% assign first_char = entry_json | slice: 0 %}
+{% if first_char == '"' %}
+  <li class="list-group-item">{{ entry | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+{% elsif entry.bullet %}
+  <li class="list-group-item">{{ entry.bullet | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+{% elsif entry.label %}
+  <li class="list-group-item"><strong>{{ entry.label }}:</strong> {{ entry.details | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+{% else %}
+  {% assign start_date = entry.start_date | append: '' | strip %}
+  {% assign end_date = entry.end_date | append: '' | strip %}
+  {% assign point_date = entry.date | append: '' | strip %}
+  {% assign date = '' %}
+  {% if start_date != '' %}
+    {% assign start_year = start_date | split: '-' | first %}
+    {% if end_date == '' or end_date == 'present' %}
+      {% assign end_year = 'Present' %}
+    {% else %}
+      {% assign end_year = end_date | split: '-' | first %}
+    {% endif %}
+    {% if start_year == end_year %}
+      {% assign date = start_year %}
+    {% else %}
+      {% assign date = start_year | append: ' – ' | append: end_year %}
+    {% endif %}
+  {% elsif point_date != '' %}
+    {% assign date = point_date | split: '-' | first %}
+  {% endif %}
+  <li class="list-group-item">
+    <div class="row">
+      <div class="col-xs-2 col-sm-2 col-md-2 text-center date-column">
+        <table class="table-cv">
+          <tbody>
+            {% if date != '' %}
+              <tr><td><span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">{{ date }}</span></td></tr>
+            {% endif %}
+            {% if entry.location %}
+              <tr><td><p class="location"><i class="fa-solid fa-location-dot iconlocation"></i> {{ entry.location }}</p></td></tr>
+            {% endif %}
+          </tbody>
+        </table>
+      </div>
+      <div class="col-xs-10 col-sm-10 col-md-10 mt-2 mt-md-0">
+        {% if entry.authors %}
+          {% comment %} PublicationEntry {% endcomment %}
+          <h6 class="title font-weight-bold ml-1 ml-md-4">
+            {% if entry.doi %}<a href="https://doi.org/{{ entry.doi }}" target="_blank">{{ entry.title | markdownify | remove: '<p>' | remove: '</p>' }}</a>{% else %}{{ entry.title | markdownify | remove: '<p>' | remove: '</p>' }}{% endif %}
+          </h6>
+          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ entry.authors | join: ', ' | markdownify | remove: '<p>' | remove: '</p>' }}</h6>
+          {% if entry.journal %}
+            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic">{{ entry.journal | markdownify | remove: '<p>' | remove: '</p>' }}</h6>
+          {% endif %}
+        {% elsif entry.institution %}
+          {% comment %} EducationEntry {% endcomment %}
+          <h6 class="title font-weight-bold ml-1 ml-md-4">{{ entry.degree }}{% if entry.degree and entry.area %}, {% endif %}{{ entry.area }}</h6>
+          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ entry.institution | markdownify | remove: '<p>' | remove: '</p>' }}</h6>
+        {% elsif entry.company %}
+          {% comment %} ExperienceEntry {% endcomment %}
+          <h6 class="title font-weight-bold ml-1 ml-md-4">{{ entry.position | markdownify | remove: '<p>' | remove: '</p>' }}</h6>
+          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ entry.company | markdownify | remove: '<p>' | remove: '</p>' }}</h6>
+        {% elsif entry.name %}
+          {% comment %} NormalEntry {% endcomment %}
+          <h6 class="title font-weight-bold ml-1 ml-md-4">{{ entry.name | markdownify | remove: '<p>' | remove: '</p>' }}</h6>
+        {% endif %}
+        {% if entry.summary %}
+          <div class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ entry.summary | markdownify | remove: '<p>' | remove: '</p>' }}</div>
+        {% endif %}
+        {% if entry.highlights %}
+          <ul class="items">
+            {% for item in entry.highlights %}
+              <li><span class="item">{{ item | markdownify | remove: '<p>' | remove: '</p>' }}</span></li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </div>
+    </div>
+  </li>
+{% endif %}
