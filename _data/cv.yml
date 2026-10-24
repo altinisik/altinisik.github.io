@@ -46,6 +46,12 @@ cv:
         start_date: 2024
         end_date: present
 
+      - company: Sorbonne University
+        position: Visiting Scholar (PRESTIJ Fellowship), in collaboration with Prof. Anne-Valérie Pont
+        location: Paris, France
+        start_date: 2026-06
+        end_date: 2026-07
+
       - company: Hacettepe University
         position: Instructor, Department of Anthropology
         location: Ankara, Türkiye
@@ -70,11 +76,25 @@ cv:
         start_date: 2014
         end_date: 2015
 
-    Awards:
-      - name: Science Academy Young Scientist Award (BAGEP)
-        date: 2025-04
-        location: Bilim Akademisi, Türkiye
-        summary: The Science Academy’s Young Scientist Award (BAGEP) is a highly prestigious, non-governmental recognition that supports early-career researchers across disciplines. Awarded through a rigorous, merit-based process, it provides recipients with independent funding and intellectual freedom to pursue original and high-risk, high-gain research. This trust-based model makes BAGEP a cornerstone of Turkey’s scientific ecosystem.
+    Awards and Fellowships:
+      - name: PRESTIJ Research Fellowship, French Embassy in Türkiye
+        date: 2026
+        summary: Visiting scholar at Sorbonne University, integrating epigraphic and historical frameworks of Roman history with paleogenomics.
+      - name: Science Academy Young Scientist Award (BAGEP) in Anthropology
+        date: 2025
+        summary: Merit-based award providing independent funding to outstanding early-career researchers in Türkiye.
+      - name: ESEB Outreach Initiative Fund
+        date: 2017
+        summary: "Project: A Timeline of the Human Evolutionary Tree with Actual and Replica Skulls"
+      - name: PhD Scholarship, University of Ostrava
+        start_date: 2015
+        end_date: 2019
+      - name: ESEB Outreach Initiative Fund
+        date: 2015
+        summary: "Project: The 5th Evolution, Science, and Education Symposium"
+      - name: Outstanding Merit Scholarship, Sabancı Foundation
+        start_date: 2007
+        end_date: 2011
 
     Grants and Projects:
       - name: "From Bones to Bonds: Building the Genomic Basis for Roman Kinship Studies"
@@ -618,62 +638,59 @@ cv:
         date: 2016-12
         journal: "DNA Polymorphisms in Human Populations, Paris, France"
 
+    Supervision of Graduate Students:
+      - name: Utku Bora Döke
+        start_date: 2025
+        end_date: present
+        summary: "**MSc Thesis Advisor** · Machine Learning Classification of Kinship Type from Degraded Genomic Data Using Identity-by-Descent and Runs-of-Homozygosity Segments"
+      - name: Elifnaz Eker
+        start_date: 2022
+        end_date: 2025
+        summary: "**MSc Thesis Co-Advisor** · Demographic and Kinship Analysis of the Roman Empire in the Anatolian Peninsula"
+      - name: Arda Sevkar
+        start_date: 2020
+        end_date: 2023
+        summary: "**MSc Thesis Co-Advisor** · Analysis of *Mycobacterium leprae* in Leprosy-Affected Individuals from Medieval to Late Ottoman Anatolia Using Ancient DNA Methods"
 
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+    Supervision of Postdoctoral Researchers:
+      - name: Dr. Duygu Deniz Kazancı
+        start_date: 2025
+        end_date: 2027
+        summary: "**Academic Advisor** · Investigation of Ancient Human DNA Preservation from Different Eras in Anatolia · TÜBİTAK 2218 National Postdoctoral Research Fellowship Programme"
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
-
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
-
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Languages:
-      - name: Turkish
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+    Teaching:
+      - name: Digital Humanities
+        location: Hacettepe University
+        start_date: 2026
+        end_date: present
+        summary: Graduate course (MSc)
+      - name: Bioarchaeology of Human Mobility and Social Structures in Ancient Societies
+        location: Hacettepe University
+        start_date: 2025
+        end_date: present
+        summary: Graduate course (PhD)
+      - name: Data Analysis in Anthropology
+        location: Hacettepe University
+        start_date: 2025
+        end_date: present
+        summary: Graduate course (MSc)
+      - name: Applied Statistics in Anthropology
+        location: Hacettepe University
+        start_date: 2024
+        end_date: present
+        summary: Undergraduate elective course
+      - name: Population Genetics
+        location: Hacettepe University
+        start_date: 2021
+        end_date: present
+        summary: Undergraduate course, Department of Anthropology
+      - name: Introduction to Anthropology
+        location: Hacettepe University
+        start_date: 2021
+        end_date: 2025
+        summary: Undergraduate elective course
+      - name: Human Biological Diversity
+        location: Hacettepe University
+        start_date: 2020
+        end_date: present
+        summary: Undergraduate course, Department of Anthropology
