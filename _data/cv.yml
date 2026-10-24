@@ -1,93 +1,127 @@
 cv:
   name: N. Ezgi Altınışık
-  #label: "Assistant Professor"
-  email: ezgialtinisik@hacettepe.edu.tr
+  headline: Assistant Professor
   location: Ankara, Türkiye
-  #image: ""
-  #summary: ""
-
+  email: ezgialtinisik@hacettepe.edu.tr
+  website: https://altinisik.ezgilab.com
   social_networks:
+    - network: ORCID
+      username: "0000-0003-0653-4292"
+    - network: Google Scholar
+      username: 3jewLZ4AAAAJ
     - network: GitHub
       username: altinisik
-    - network: X
-      username: ezgimou
-
-  #address:
-  #  street: Beytepe
-  #  city: Ankara
-  #  #region: California
-  #  #postalCode: CA 94115
-  #  countryCode: TR
 
   sections:
+
     Education:
-      - institution: University of Ostrava
-        location: Ostrava, Czechia
-        url: https://www.osu.cz
+      - institution: "[University of Ostrava](https://www.osu.cz)"
         area: Biology
-        studyType: PhD
+        degree: PhD
+        location: Ostrava, Czechia
         start_date: 2015
-        end_date: 2016
-        score: ""
-        #courses: "Theory of Relativity"
+        end_date: 2019
         highlights:
-          - "Bridging the Americas and Eurasia: Population history of American arctic peoples"
+          - "Thesis: *Bridging the Americas and Eurasia: Population history of American arctic peoples*"
 
       - institution: Istanbul University
-        location: Istanbul, Türkiye
         area: Molecular Biology and Genetics
-        studyType: MSc
+        degree: MSc
+        location: Istanbul, Türkiye
         start_date: 2012
         end_date: 2015
-        #highlights:
-        #  - "İnsan iskeletlerinde mitokondriyal genom analizi ve haplo-grup tayini"
 
       - institution: Istanbul University
-        location: Istanbul, Türkiye
         area: Molecular Biology and Genetics
-        studyType: BSc
+        degree: BSc
+        location: Istanbul, Türkiye
         start_date: 2007
         end_date: 2012
 
     Experience:
+
       - company: Hacettepe University
-        position: Assistant Professor at Department of Anthropology
+        position: Assistant Professor, Department of Anthropology
         location: Ankara, Türkiye
         start_date: 2024
         end_date: present
 
       - company: Hacettepe University
-        position: Instructor at Department of Anthropology
+        position: Instructor, Department of Anthropology
         location: Ankara, Türkiye
         start_date: 2019
         end_date: 2024
 
-      - company: Max Planck Institute for Science of Human History
-        position: Visiting Researcher at Department of Archaeogenetics
+      - company: Max Planck Institute for the Science of Human History
+        position: Visiting Researcher, Department of Archaeogenetics
         location: Jena, Germany
         start_date: 2018
         end_date: 2019
 
       - company: University of Ostrava
-        position: Researcher at Life Science Research Center
+        position: Researcher, Life Science Research Center
         location: Ostrava, Czechia
         start_date: 2015
         end_date: 2019
 
       - company: Mustafa Kemal University
-        position: Research Assistant at Department of Anthropology
+        position: Research Assistant, Department of Anthropology
         location: Hatay, Türkiye
         start_date: 2014
         end_date: 2015
 
     Awards:
-      - title: BAGEP 2025
-        authors:
-          - "Bilim Akademisi"
-        date: 2025-04-01
-        awarder: Bilim Akademisi
-        url: https://bilimakademisi.org/bagep-2025-sonuclari-aciklandi/
+      - name: Science Academy Young Scientist Award (BAGEP)
+        date: 2025-04
+        location: Bilim Akademisi, Türkiye
         summary: The Science Academy’s Young Scientist Award (BAGEP) is a highly prestigious, non-governmental recognition that supports early-career researchers across disciplines. Awarded through a rigorous, merit-based process, it provides recipients with independent funding and intellectual freedom to pursue original and high-risk, high-gain research. This trust-based model makes BAGEP a cornerstone of Turkey’s scientific ecosystem.
+
+    Grants and Projects:
+      - name: "From Bones to Bonds: Building the Genomic Basis for Roman Kinship Studies"
+        start_date: 2025
+        end_date: 2027
+        summary: "**Principal Investigator** · TÜBİTAK 2247-B European Research Council (ERC) Support Program"
+      - name: Investigation of Bronze Age Western Anatolian Population Dynamics with Archaeogenomic Approaches
+        start_date: 2024
+        end_date: 2027
+        summary: "**Advisor** · TÜBİTAK 1001 Scientific and Technological Research Projects Funding Program"
+      - name: "Leprosy in Anatolia: A Palaeopathological and Archaeogenomic Study"
+        start_date: 2023
+        end_date: 2026
+        summary: "**Advisor** · TÜBİTAK 1001 Scientific and Technological Research Projects Funding Program"
+      - name: Supplementary Funding for TÜBİTAK 1001 Project 121Z485
+        start_date: 2023
+        end_date: 2025
+        summary: "**Principal Investigator** · Hacettepe University Scientific Research Projects Coordination Unit (BAP)"
+      - name: "Nicaean People and Byzantine Warriors: A Bioarchaeological Study (İBİS)"
+        start_date: 2022
+        end_date: 2025
+        summary: "**Researcher** · TÜBİTAK 1001 Scientific and Technological Research Projects Funding Program"
+      - name: "Anatolian–Caucasian Relations from the Neolithic to the Middle Ages: An Archaeogenomic Study on Human Remains from Anatolia and Azerbaijan"
+        start_date: 2022
+        end_date: 2025
+        summary: "**Advisor** · TÜBİTAK 1001 Scientific and Technological Research Projects Funding Program"
+      - name: Investigation of the Population History of Roman Era Coastal and Inland Societies in Anatolia from an Archaeogenomic Perspective
+        start_date: 2021
+        end_date: 2024
+        summary: "**Principal Investigator** · TÜBİTAK 1001 Scientific and Technological Research Projects Funding Program (Project No. 121Z485)"
+      - name: "Mapping the Neolithic Expansion in the Mediterranean: A Scientific Collective to Promote Archaeogenomics and Evolutionary Biology Research in Turkey (NEOMATRIX)"
+        start_date: 2021
+        end_date: 2024
+        summary: "**Researcher** · European Union Horizon 2020 Twinning"
+      - name: Archaeogenomic Analysis of Genetic and Cultural Interactions in Neolithic Anatolian Societies (NEOGENE)
+        start_date: 2018
+        end_date: 2024
+        summary: "**Researcher** · European Research Council (ERC) Consolidator Grant, Horizon 2020"
+      - name: Archaeogenetic Study of Human Populations in Mainland Southeast Asia
+        start_date: 2019
+        end_date: 2021
+        summary: "**Research Fellow** · University of Ostrava, Czechia"
+      - name: New Research Directions at the Life Science Research Centre
+        start_date: 2015
+        end_date: 2017
+        summary: "**Research Fellow** · University of Ostrava, Czechia"
+
 
     Publications:
       - title: Zur Elektrodynamik bewegter Körper
