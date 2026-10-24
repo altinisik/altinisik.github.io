@@ -7,12 +7,10 @@ cv:
   summary: ""
 
   social_networks:
-    - network: X
-      username: ezgimou
     - network: GitHub
       username: altinisik
-    - network: Bluesky
-      username: ezgimou.bsky.social
+    - network: X
+      username: ezgimou
 
   address:
     street: Beytepe
