@@ -1,21 +1,30 @@
 design:
-  theme: classic
+  theme: harvard
   page:
     size: a4
-    top_margin: 1.5cm
-    bottom_margin: 1.5cm
-    left_margin: 1.6cm
-    right_margin: 1.6cm
     show_footer: true
     show_top_note: false
-  colors:
-    name: rgb(31, 95, 107)
-    section_titles: rgb(31, 95, 107)
-    links: rgb(31, 95, 107)
-  typography:
-    line_spacing: 0.5em
-    font_size:
-      body: 9.5pt
   sections:
-    space_between_regular_entries: 0.8em
     show_time_spans_in: []
+
+#design:
+#  theme: classic
+#  page:
+#    size: a4
+#    top_margin: 1.5cm
+#    bottom_margin: 1.5cm
+#    left_margin: 1.6cm
+#    right_margin: 1.6cm
+#    show_footer: true
+#    show_top_note: false
+#  colors:
+#    name: rgb(31, 95, 107)
+#    section_titles: rgb(31, 95, 107)
+#    links: rgb(31, 95, 107)
+#  typography:
+#    line_spacing: 0.5em
+#    font_size:
+#      body: 9.5pt
+#  sections:
+#    space_between_regular_entries: 0.8em
+#    show_time_spans_in: []
