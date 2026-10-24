@@ -13,7 +13,8 @@ cv:
       username: altinisik
 
   sections:
-
+    Research Interests:
+      - "Archaeogenomics and population history of Anatolia and the Near East; genetic kinship and social organisation in past societies; human mobility from the Neolithic to the Roman period; computational methods for ancient DNA."
     Education:
       - institution: "[University of Ostrava](https://www.osu.cz)"
         area: Biology
@@ -38,7 +39,7 @@ cv:
         start_date: 2007
         end_date: 2012
 
-    Experience:
+    Academic Positions:
 
       - company: Hacettepe University
         position: Assistant Professor, Department of Anthropology
@@ -461,6 +462,61 @@ cv:
         date: 2021
         journal: "In: I. Hodder (ed.), Peopling the Landscape of Çatalhöyük: Reports from the 2009–2017 Seasons. London: British Institute at Ankara, pp. 1–11"
 
+    Supervision:
+      - name: Dr. Duygu Deniz Kazancı
+        start_date: 2025
+        end_date: 2027
+        summary: "**Post-Doc Academic Advisor** · Investigation of Ancient Human DNA Preservation from Different Eras in Anatolia · TÜBİTAK 2218 National Postdoctoral Research Fellowship Programme"
+      - name: Utku Bora Döke
+        start_date: 2025
+        end_date: present
+        summary: "**MSc Thesis Advisor** · Machine Learning Classification of Kinship Type from Degraded Genomic Data Using Identity-by-Descent and Runs-of-Homozygosity Segments"
+      - name: Elifnaz Eker
+        start_date: 2022
+        end_date: 2025
+        summary: "**MSc Thesis Co-Advisor** · Demographic and Kinship Analysis of the Roman Empire in the Anatolian Peninsula"
+      - name: Arda Sevkar
+        start_date: 2020
+        end_date: 2023
+        summary: "**MSc Thesis Co-Advisor** · Analysis of *Mycobacterium leprae* in Leprosy-Affected Individuals from Medieval to Late Ottoman Anatolia Using Ancient DNA Methods"
+
+    Teaching:
+      - name: Digital Humanities
+        location: Hacettepe University
+        start_date: 2026
+        end_date: present
+        summary: Graduate course (MSc)
+      - name: Bioarchaeology of Human Mobility and Social Structures in Ancient Societies
+        location: Hacettepe University
+        start_date: 2025
+        end_date: present
+        summary: Graduate course (PhD)
+      - name: Data Analysis in Anthropology
+        location: Hacettepe University
+        start_date: 2025
+        end_date: present
+        summary: Graduate course (MSc)
+      - name: Applied Statistics in Anthropology
+        location: Hacettepe University
+        start_date: 2024
+        end_date: present
+        summary: Undergraduate elective course
+      - name: Population Genetics
+        location: Hacettepe University
+        start_date: 2021
+        end_date: present
+        summary: Undergraduate course, Department of Anthropology
+      - name: Introduction to Anthropology
+        location: Hacettepe University
+        start_date: 2021
+        end_date: 2025
+        summary: Undergraduate elective course
+      - name: Human Biological Diversity
+        location: Hacettepe University
+        start_date: 2020
+        end_date: present
+        summary: Undergraduate course, Department of Anthropology
+
     Conference Presentations:
       - title: "A Diachronic Paleogenomic Analysis of Consanguinity from the Iron Age to the Early Middle Ages in the Roman World"
         authors:
@@ -638,59 +694,8 @@ cv:
         date: 2016-12
         journal: "DNA Polymorphisms in Human Populations, Paris, France"
 
-    Supervision of Graduate Students:
-      - name: Utku Bora Döke
-        start_date: 2025
-        end_date: present
-        summary: "**MSc Thesis Advisor** · Machine Learning Classification of Kinship Type from Degraded Genomic Data Using Identity-by-Descent and Runs-of-Homozygosity Segments"
-      - name: Elifnaz Eker
-        start_date: 2022
-        end_date: 2025
-        summary: "**MSc Thesis Co-Advisor** · Demographic and Kinship Analysis of the Roman Empire in the Anatolian Peninsula"
-      - name: Arda Sevkar
-        start_date: 2020
-        end_date: 2023
-        summary: "**MSc Thesis Co-Advisor** · Analysis of *Mycobacterium leprae* in Leprosy-Affected Individuals from Medieval to Late Ottoman Anatolia Using Ancient DNA Methods"
-
-    Supervision of Postdoctoral Researchers:
-      - name: Dr. Duygu Deniz Kazancı
-        start_date: 2025
-        end_date: 2027
-        summary: "**Academic Advisor** · Investigation of Ancient Human DNA Preservation from Different Eras in Anatolia · TÜBİTAK 2218 National Postdoctoral Research Fellowship Programme"
-
-    Teaching:
-      - name: Digital Humanities
-        location: Hacettepe University
-        start_date: 2026
-        end_date: present
-        summary: Graduate course (MSc)
-      - name: Bioarchaeology of Human Mobility and Social Structures in Ancient Societies
-        location: Hacettepe University
-        start_date: 2025
-        end_date: present
-        summary: Graduate course (PhD)
-      - name: Data Analysis in Anthropology
-        location: Hacettepe University
-        start_date: 2025
-        end_date: present
-        summary: Graduate course (MSc)
-      - name: Applied Statistics in Anthropology
-        location: Hacettepe University
-        start_date: 2024
-        end_date: present
-        summary: Undergraduate elective course
-      - name: Population Genetics
-        location: Hacettepe University
-        start_date: 2021
-        end_date: present
-        summary: Undergraduate course, Department of Anthropology
-      - name: Introduction to Anthropology
-        location: Hacettepe University
-        start_date: 2021
-        end_date: 2025
-        summary: Undergraduate elective course
-      - name: Human Biological Diversity
-        location: Hacettepe University
-        start_date: 2020
-        end_date: present
-        summary: Undergraduate course, Department of Anthropology
+    Languages:
+      - label: Turkish
+        details: Native
+      - label: English
+        details: Fluent
