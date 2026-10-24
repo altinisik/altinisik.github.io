@@ -1,14 +1,11 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - altinisik
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - altinisik/C-Turkey
+  - altinisik/cturkey-app
+  - altinisik/lcMLkin-v2.1
+  - altinisik/UpperMesopotamia
+  
