@@ -11,9 +11,7 @@ Human remains and archaeological sediments preserve DNA not only from people, bu
 
 ### Projects
 
-**Leprosy in Anatolia: A Palaeopathological and Archaeogenomic Study**<br>
-Advisor · TÜBİTAK 1001 · 2023–2026<br>
-Combines palaeopathology with ancient DNA to study leprosy in Anatolia. As part of this work, Arda Sevkar's MSc thesis (2023), which I co-supervised, analysed *Mycobacterium leprae* in leprosy-affected individuals from Medieval to Late Ottoman Anatolia.
+**Leprosy in Anatolia: A Palaeopathological and Archaeogenomic Study**<br> Advisor · TÜBİTAK 1001 · 2023–2026<br> Combines palaeopathology with ancient DNA to study leprosy in Anatolia. As part of this work, Arda Sevkar's MSc thesis (2023), which I co-supervised, analysed *Mycobacterium leprae* in leprosy-affected individuals from Medieval to Late Ottoman Anatolia.
 
 ### Collaborations
 
