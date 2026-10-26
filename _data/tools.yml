@@ -1,0 +1,23 @@
+# Tools, databases and software shown on the /tools/ page.
+# To add a new item, copy one block, paste it under the right category and edit it.
+# category must be one of: Databases, Web applications, Software
+# Links are optional: delete any line you don't need.
+
+- name: C-Turkey Data Explorer
+  category: Web applications
+  description: Interactive explorer for the C-Turkey dataset. Search, filter and map radiocarbon dates from archaeological sites across Türkiye.
+  tags: [radiocarbon, archaeology, Türkiye]
+  launch: "https://altinisik.ezgilab.com/C-Turkey/"
+
+- name: Radiocarbon Calibrator
+  category: Web applications
+  description: Calibrate radiocarbon dates in the browser and visualise their calibrated probability distributions.
+  tags: [radiocarbon, calibration]
+  launch: "https://altinisik.ezgilab.com/cturkey-app/" 
+
+- name: C-Turkey
+  category: Databases
+  description: A comprehensive, openly available dataset of radiocarbon dates from archaeological sites in Türkiye.
+  tags: [radiocarbon, open data]
+  paper: /publications/
+  data: "https://zenodo.org/records/21918304"
