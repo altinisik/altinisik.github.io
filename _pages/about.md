@@ -28,4 +28,18 @@ I am an assistant professor in the Department of Anthropology at Hacettepe Unive
 
 My research focuses on unraveling ancient population dynamics, human mobility, and kinship structures, with a primary geographic focus on Anatolia and the broader Mediterranean world. By combining high-resolution archaeogenomic data, radiocarbon modeling, and statistical/computational approaches, I explore how societal transitions, mating systems, and mobility shaped human diversity through time.
 
-**Research Interests:** Ancient DNA (aDNA) • Paleogenomics • Kinship & Mating Systems (Runs of Homozygosity) • Population Genetics • Bioarchaeology • Mediterranean & Anatolian Prehistory
+**Research Interests:** Ancient DNA (aDNA) • Paleogenomics • Kinship & Mating Systems • Population Genetics • Bioarchaeology • Mediterranean & Anatolian History
+
+---
+
+<div lang="tr" markdown="1">
+
+Hacettepe Üniversitesi Antropoloji Bölümü'nde doktor öğretim üyesiyim. Paleogenomik ve biyoarkeoloji alanlarında çalışıyorum. Araştırmalarım antik genomik, tarihsel demografi ve arkeolojinin kesiştiği noktada yer alıyor.
+
+Başta Anadolu ve daha geniş anlamda Akdeniz dünyası olmak üzere, geçmiş toplumların popülasyon dinamiklerini, insan hareketliliğini ve akrabalık yapılarını anlamaya çalışıyorum. Yüksek çözünürlüklü arkeogenomik verileri, radyokarbon modellemesini ve istatistiksel ve hesaplamalı yaklaşımları bir araya getirerek, toplumsal dönüşümlerin, akrabalık sistemlerinin ve hareketliliğin insan çeşitliliğini zaman içinde nasıl biçimlendirdiğini araştırıyorum.
+
+**Araştırma alanları:** Antik DNA • Paleogenomik • Akrabalık ve eşleşme sistemleri • Popülasyon genetiği • Biyoarkeoloji • Akdeniz ve Anadolu Tarihi
+
+Radyokarbon Kalibratörü, Doçentlik puan hesaplama aracı gibi uygulamalara [Araçlar](/tools/) sayfasından ulaşabilirsiniz.
+
+</div>
