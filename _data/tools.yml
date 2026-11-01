@@ -21,3 +21,9 @@
   tags: [radiocarbon, open data]
   paper: /publications/
   data: "https://zenodo.org/records/21918304"
+
+- name: Doçentlik Puan Hesaplama
+  category: Web applications
+  description: Sosyal Bilimler için Doçentlik Puanı Hesaplama Aracı
+  tags: [helper]
+  launch: "https://altinisik.ezgilab.com/DocentlikPuanHesaplama/" 
