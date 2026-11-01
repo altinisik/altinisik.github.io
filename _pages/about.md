@@ -6,7 +6,7 @@ subtitle: Assistant Professor, Department of Anthropology, <a href="https://www.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: ezgi-altinisik.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
 
